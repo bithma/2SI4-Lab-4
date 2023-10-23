@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "testLab4",
+      "setup": "chmod -R +xrw *; make clean; make",
+      "run": "make test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": null
+    }
+  ]
+}
